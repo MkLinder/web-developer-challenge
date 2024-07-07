@@ -3,18 +3,20 @@ import ImgIcon from '../../utils/image-icon-48px.png'
 
 export function CreatePostBox() {
     return (
-        <div id="post-container">
+        <section id="post-container">
             <div id="img">
-                <img src={ImgIcon} alt="" />
+                <a href="#">
+                    <img src={ImgIcon} alt="" width="100%"/>
+                </a>
             </div>
-            <div id="forms">
+            <form id="forms">
                 <input id='input-name' type="text" placeholder="Digite seu nome"/>
                 <textarea name="" id="msg" placeholder="Mensagem"></textarea>
-            </div>
+            </form>
             <div id="buttons">
                 <button id="discard">Descartar</button>
                 <button id="publish">Publicar</button>
             </div>
-        </div>
+        </section>
     )
 }

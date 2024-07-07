@@ -1,0 +1,55 @@
+#card-container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    padding: 14px;
+    border: 2px solid #373737;
+    border-radius: 2px;
+    background-color: #313131;
+}
+
+#close-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#card-contain {
+    display: flex;
+    gap: 0 26px;
+    margin-bottom: 14px;
+    padding: 0 10px;
+}
+
+#img-card {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url(https://img.freepik.com/fotos-gratis/paisagem-de-nevoeiro-matinal-e-montanhas-com-baloes-de-ar-quente-ao-nascer-do-sol_335224-794.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#contain {
+    max-width: 77%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#ref-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: #5F5F5F;
+}
+
+#name {
+    font-size: 12px;
+    color: #ffffff6e;
+}
+
+main h6 {
+    font: 400 15px 'Segoe UI', sans-serif;
+    color: #ffffff6e;
+    padding-right: 17px;
+}

@@ -2,7 +2,7 @@
     width: 40vw;
     margin: auto;
     margin-top: 50px;
-    padding: 20px;
+    padding: 22px;
     border: 2px solid #373737;
     border-radius: 2px;
     background-color: #313131;
@@ -22,14 +22,15 @@
 }
 
 #forms {
+    margin-top: 14px;
     display: flex;
     flex-direction: column;
-    margin-top: 14px;
+    gap: 8px;
 }
 
 #input-name {
     margin-top: 5px;
-    padding: 6px 12px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     background-color: #494949;
@@ -41,13 +42,16 @@ input::placeholder {
 }
 
 #msg {
-    height: 60px;
-    margin-top: 6px;
-    padding: 6px 12px;
+    height: 70px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     background-color: #494949;
     font-family: 'Rubik';
+}
+
+textarea {
+    resize: none;
 }
 
 textarea::placeholder {
@@ -55,8 +59,9 @@ textarea::placeholder {
 }
 
 #buttons {
-    display: flex;
     margin-top: 25px;
+    display: flex;
+    gap: 0 20px;
     justify-content: flex-end;
 }
 
@@ -72,7 +77,6 @@ textarea::placeholder {
 }
 
 #publish {
-    margin-left: 14px;
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
