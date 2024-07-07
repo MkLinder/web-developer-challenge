@@ -1,6 +1,6 @@
-import { PostsBox } from '../posts-box/posts-box'
-import './post-card.css'
-import closeButton from '../../utils/close-icon-48px.png'
+import { PostsBox } from '../posts-box/posts-box';
+import './post-card.css';
+import closeButton from '../../utils/close-icon-48px.png';
 
 export function PostCard() {
     return (

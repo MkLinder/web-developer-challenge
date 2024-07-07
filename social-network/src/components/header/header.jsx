@@ -1,6 +1,6 @@
-import './nav-menu.css';
+import './header.css';
 
-export function NavMenu() {
+export function Header() {
     return(
         <header id="container">
             <h1>buildbox</h1>
