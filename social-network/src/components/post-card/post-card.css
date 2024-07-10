@@ -1,5 +1,6 @@
 #card-container {
-    width: 40vw;
+    width: 80vw;
+    max-width: 524px;
     display: flex;
     flex-direction: column;
     gap: 20px 0;
@@ -23,7 +24,9 @@
 }
 
 #img-card {
-    width: 80px;
+    width: 30%;
+    min-width: 80px;
+    max-width: 80px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -37,7 +40,7 @@
 }
 
 #contain {
-    max-width: 77%;
+    width: 85%;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -58,4 +61,25 @@
     font: 400 15px 'Segoe UI', sans-serif;
     color: #ffffff6e;
     padding-right: 17px;
+}
+
+
+@media screen and (max-width: 655px) {
+    #card-container {
+        gap: 4px;
+    }
+
+    #card-contain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 26px;
+    }
+
+    #msg-contain {
+        text-align: justify;
+        padding: 0
+    }
 }

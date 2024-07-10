@@ -1,7 +1,13 @@
 import './post-card.css';
 import closeButton from '../../utils/close-icon-48px.png';
 
-export function PostCard({urlImage, msg, userName}:any) {
+interface IPostContent {
+    urlImage: string
+    msg: string
+    userName: string
+}
+
+export function PostCard({urlImage, msg, userName}:IPostContent) {
     return (
         <section id="card-container">
             <div id="close-button">
